@@ -8,10 +8,7 @@
       href="https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://chatbot-ai-ekaa.vercel.app/style.css"
-    />
+  
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,24 +19,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <div id="chatbot-root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script>
-      window.onload = function () {
-        // Call the global function to initialize the chatbot after the script has loaded
-        if (window.createChatbotWidget) {
-          window.createChatbotWidget();
-        } else {
-          console.error("Chatbot widget script did not load correctly.");
-        }
-      };
-    </script>
-<!-- Add React and ReactDOM from CDN -->
-<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-<!-- Your chatbot widget script -->
-<script src="https://chatbot-ai-ekaa.vercel.app/chatbot-widget.es.js"></script>
+ 
 
   </body>
 </html>
